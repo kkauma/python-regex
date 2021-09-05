@@ -31,6 +31,7 @@ for groups in phone_regex.findall(text):
 for groups in email_regex.findall(text):
 	matches.append(groups[0])
 
+# Copy the results to the clipboard
 
 
 
